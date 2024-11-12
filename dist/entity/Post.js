@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Post = void 0;
 const typeorm_1 = require("typeorm");
-const User_1 = require("./User"); // Importando a entidade User
+const User_1 = require("./User"); 
 const uuid_1 = require("uuid");
 //TODO Crie a entidade de Post
 let Post = class Post {

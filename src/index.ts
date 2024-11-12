@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 import express from 'express';
-import { DataSource, getRepository } from 'typeorm';
+import { DataSource  } from 'typeorm';
 import { User } from './entity/User';
 import { Post } from './entity/Post';
 
